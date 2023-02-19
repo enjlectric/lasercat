@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13d3aeb37d4e424ea0bdb6d53d79042, type: 3}
+  m_Name: Refs
+  m_EditorClassIdentifier: 
+  waves:
+  - sceneName: Wave1
+    flavourName: For Whom The Roomba Rolls
+    backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave2
+    flavourName: Little Red Roomba Slope
+    backgroundTint: {r: 0.990566, g: 0.22895159, b: 0.22895159, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave3
+    flavourName: Things with Wings
+    backgroundTint: {r: 0, g: 0.5405463, b: 0.8490566, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave4
+    flavourName: VS. Roomba Prince
+    backgroundTint: {r: 0.5740151, g: 0, b: 0.7924528, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0.2
+    addToScoreMultiplierAfterBeat: 0.1
+  - sceneName: Wave5
+    flavourName: Training Area
+    backgroundTint: {r: 1, g: 0.6982125, b: 0.13679248, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave6
+    flavourName: Pop Culture
+    backgroundTint: {r: 0.1372549, g: 0.9906952, b: 1, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave7
+    flavourName: The Descent
+    backgroundTint: {r: 0.1601077, g: 0.6415094, b: 0, a: 1}
+    countIncreaseAfterBeat: 0
+    hpIncreaseAfterBeat: 0
+    addToScoreMultiplierAfterBeat: 0
+  - sceneName: Wave8
+    flavourName: VS. Laser King
+    backgroundTint: {r: 0.9339623, g: 0, b: 0.33775052, a: 1}
+    countIncreaseAfterBeat: 1
+    hpIncreaseAfterBeat: 0.3
+    addToScoreMultiplierAfterBeat: 0.15
+  waveRepeatNamePrefix:
+  - 
+  - Super
+  - Gallant
+  - Mysterious
+  - Unyielding
+  - Zombified
+  - Pretty Cool
+  - Immortal
+  - Epic
+  - Funny
+  - Primordial
+  - Eldritch
+  - Royal
+  waveRepeatNameSuffix:
+  - 
+  - Returns
+  - Ultra
+  - Deluxe
+  - of Death
+  - Jr.
+  - Sr.
+  - Bros.
+  - of Gilgamesh
+  - Reborn
+  - Bros. 3
+  - Mania
+  projectileMap:
+  - type: 0
+    prefab: {fileID: 7288400291291558634, guid: b56f17c602388084b9a846223364b92b,
+      type: 3}
+  - type: 1
+    prefab: {fileID: 3889038885672252688, guid: 561d444eb229a824f9e075010ab0c7d1,
+      type: 3}
+  - type: 3
+    prefab: {fileID: 2702856565784027896, guid: d9779f49f5e49d84eb1a2dc89414a57a,
+      type: 3}
+  effectMap:
+  - type: 2
+    prefab: {fileID: 8152640715168954040, guid: 521779b2bbbeb4f48946fe0b176dc62a,
+      type: 3}
+  - type: 3
+    prefab: {fileID: 6691417712508979723, guid: 923ee7e361089df40a2439cf331fdc9d,
+      type: 3}
+  sounds:
+  - type: 0
+    clip: {fileID: 8300000, guid: e3c8f58ab71484842932a7d5ccc3ff9d, type: 3}
+    looping: 0
+  - type: 1
+    clip: {fileID: 8300000, guid: 04c800dbcad78a04b81c302bd672269c, type: 3}
+    looping: 0
+  - type: 2
+    clip: {fileID: 8300000, guid: 5006308c5df2c814fa01ed1eb33f8813, type: 3}
+    looping: 1
+  - type: 3
+    clip: {fileID: 8300000, guid: e3c8f58ab71484842932a7d5ccc3ff9d, type: 3}
+    looping: 0
+  - type: 4
+    clip: {fileID: 8300000, guid: 8ba22c0c166fbc0499fb9b41d723f9ce, type: 3}
+    looping: 0
+  - type: 5
+    clip: {fileID: 8300000, guid: d0c5ab3b74d4ea548ab2bd02c97155d1, type: 3}
+    looping: 0
+  - type: 6
+    clip: {fileID: 8300000, guid: 973e7d450acfa934fa83e1a81425b017, type: 3}
+    looping: 0
+  - type: 7
+    clip: {fileID: 8300000, guid: 1cb70db9a52b67546acaff550a444efd, type: 3}
+    looping: 0
+  - type: 8
+    clip: {fileID: 8300000, guid: c5d3206379bfb2d47a45d6012e8b0c47, type: 3}
+    looping: 0
+  - type: 9
+    clip: {fileID: 8300000, guid: c1b61dc8c6880d34391c465d9783e0c8, type: 3}
+    looping: 0
+  - type: 10
+    clip: {fileID: 8300000, guid: c0cb9e8f463ac7047aad670880bc4213, type: 3}
+    looping: 0
+  - type: 11
+    clip: {fileID: 8300000, guid: 6145ddf8bba062049969d7a6a4cd81f2, type: 3}
+    looping: 0
+  - type: 12
+    clip: {fileID: 8300000, guid: 77cd80226dc981b4ea5e85231e729969, type: 3}
+    looping: 1
+  - type: 13
+    clip: {fileID: 8300000, guid: d8b6cc1222cb98848b74acd367567a43, type: 3}
+    looping: 0
+  - type: 14
+    clip: {fileID: 8300000, guid: 595791897180b48439c7b321768b0c24, type: 3}
+    looping: 0
+  - type: 15
+    clip: {fileID: 8300000, guid: f73a4c885ed706d49950fe49f7eda580, type: 3}
+    looping: 0
+  - type: 16
+    clip: {fileID: 8300000, guid: e490d2a72a1c9824ebaf666cc0b65038, type: 3}
+    looping: 0
+  - type: 17
+    clip: {fileID: 8300000, guid: 2e3e05b95e187d941ac4b524f8fb1c30, type: 3}
+    looping: 1
+  - type: 18
+    clip: {fileID: 8300000, guid: a6cef0defcb139340af6ec805f681b53, type: 3}
+    looping: 1
+  - type: 19
+    clip: {fileID: 8300000, guid: f13ff161a0bb3d3478e24eec70a16d9b, type: 3}
+    looping: 0
+  - type: 20
+    clip: {fileID: 8300000, guid: 0fdcb43f962db354fa8bd04774df663b, type: 3}
+    looping: 0
+  - type: 21
+    clip: {fileID: 8300000, guid: 4f37a7fe19dbd9a41b587881706786f8, type: 3}
+    looping: 0
+  - type: 22
+    clip: {fileID: 8300000, guid: b95f66bb3f5420741b8827a672237615, type: 3}
+    looping: 0
+  - type: 23
+    clip: {fileID: 8300000, guid: f1770d17d666e834cb81d40e4e58f8f7, type: 3}
+    looping: 0
+  scorePointsText: {fileID: 180044260339012085, guid: dbf31210dff492040a67a1e14fc952a5,
+    type: 3}
+  colorGrey: {r: 0.43529415, g: 0.43921572, b: 0.4431373, a: 1}
+  colorOrange: {r: 0.8862746, g: 0.5176471, b: 0.19215688, a: 1}
+  trainEntityPrefabs:
+  - type: 48
+    prefab: {fileID: 4534799779475299960, guid: 2e117b5ee9dbad6418e967468dfe5f14,
+      type: 3}
+  - type: 49
+    prefab: {fileID: 1358765038882044604, guid: 124fc84bcaca6f14c841c4c654700f27,
+      type: 3}
+  collectibles:
+  - {fileID: 25427442191624572, guid: bd7b67ab491f2e34c837751e7017e2ce, type: 3}
+  - {fileID: 5836773873118446076, guid: 73699ec424484b94e93a43c58f648ccc, type: 3}
+  - {fileID: 4000588279776844589, guid: aab8996f2f22c45479a0a5eab4a5bb8b, type: 3}
